@@ -1,0 +1,49 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+@import "rsuite/dist/rsuite.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+ font-family: " Montserrat",sans-serif ;
+ 
+ box-sizing: border-box;
+ padding: 0;
+ margin: 0;
+ scroll-behavior: smooth;
+ 
+}
+
+body{
+  background-color: #ecf0f3;
+}
+
+.gradient2:hover {
+  background-color:#e70b30;
+  color:white;
+}
+
+.gradient1{
+  @apply bg-gradient-to-r from-[#ffdfe9] to-[#ff185f]
+
+}
+
+/* .customcss{
+
+  background: rgb(228,234,237);
+background: linear-gradient(90deg, rgba(228,234,237,1) 0%, rgba(236,240,242,1) 50%, rgba(239,242,244,1) 100%);
+} */
