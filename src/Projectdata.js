@@ -14,6 +14,7 @@ const Projectdata = () => {
       image: Project1,
       description:
         "Integrate Firebase for a user authentication system, enabling users to create accounts, securely log in, and efficiently manage their bookings.Build an admin dashboard empowering hotel administrators to manage hotel listings efficiently, respond to customer reviews, and monitor bookings.Enable users to easily search for available hotels based on available dates, room types, and other criteria.Integrate a secure payment gateway for seamless online transactions ",
+      Link:"https://regal-travesseiro-1a1ead.netlify.app/"
     },
 
     {
@@ -99,7 +100,7 @@ const Projectdata = () => {
               </div>
               <div className="flex  justify-center bottom-0">
              <Button   shadow color="error" auto >
-          VIEW PROJECT
+              <a className="hover:text-white cursor-pointer  no-underline" href={item.Link} target="_blank">VIEW PROJECT</a>
         </Button>
 
              </div>
