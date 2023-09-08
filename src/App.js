@@ -1,5 +1,7 @@
 
 import React from "react";
+import { useState, createContext, useContext } from "react";
+
 import "./index.css"
 import "./App.css";
 import Header from "./Header";
@@ -14,10 +16,20 @@ import GoToTop from "./GoToTop";
 import Education from "./ResumeData/Education";
 
 
+
+
+// const UserContext = createContext();
+
 function App() {
+
+  // const { sidenav, setsidenav } = useMyContext();
+
+
   
   return (
     <>
+
+    
     
     <BrowserRouter>
     <Routes >
@@ -29,6 +41,7 @@ function App() {
         {/* <Route path="/Education" element={[<Education/>]}/> */}
       </Routes>
     </BrowserRouter> 
+    
     
     </>
   );

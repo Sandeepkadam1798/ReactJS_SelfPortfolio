@@ -20,16 +20,16 @@ const Typewriter = () => {
     <style>
   @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,700&display=swap');
 </style>
-    <div className=' pl-28 mb-5'>
+    <div className=' pl-1 mb-5'>
     <h1  style={{fontFamily:"Montserrat Alternates" ,fontWeight:"700",fontSize:"40px"}}> a {' '}
     <span style={{fontWeight:'bold', color:'#ff014f' ,fontFamily:"Montserrat Alternates"}}>{text}</span>
     <span style={{color:'#ff014f'}}>
         <Cursor cursorStyle ='|'/>
     </span>
     </h1>
-    <h1 className="flex text-center pt-5" style={{fontSize:"16px",lineHeight:"30px" ,paddingRight:"20px",opacity:".9",fontFamily:"poppins"}}>
+    <p className="flex items-start pt-5" style={{fontSize:"16px",lineHeight:"30px" ,paddingRight:"20px",opacity:".9",fontFamily:"poppins"}}>
     Dynamic full stack web developer creating captivating web experiences. Expertise in front-end and back-end development, crafting code that delights users. Eager to collaborate and make a difference in the digital world.
-    </h1>
+    </p>
     </div>
     <div className='mt-16'>
       <h6 className=' text-#3c3e41 font-medium	text-sm pb-4' style={{fontFamily:"sans-serif" ,fontWeight:"700",letterSpacing :"1px"}}>FIND WITH ME</h6>

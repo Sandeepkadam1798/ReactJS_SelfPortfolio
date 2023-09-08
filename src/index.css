@@ -28,6 +28,15 @@ code {
  
 }
 
+/* .blurback{
+  
+} */
+
+.blurback.active {
+  @apply brightness-50 blur-sm 
+}
+
+
 body{
   background-color: #ecf0f3;
 }
@@ -42,6 +51,44 @@ body{
 
 }
 
+.mobile input{
+ 
+  width: 470px;
+
+
+}
+.mobile Textarea{
+ 
+  width: 475px;
+  height: 100px;
+
+
+}
+
+/* .mobile1 input{
+
+  width: 200px;
+} */
+
+ @media screen and (max-width: 768px) {
+  .mobile1 input{
+    width: 270px;
+       
+  } 
+} 
+
+
+ @media screen and (max-width: 768px) {
+  .mobile input{
+    /* width: 270px; */
+    width: 270px;
+  } 
+} 
+ @media screen and (max-width: 768px) {
+  .mobile Textarea{
+    width: 270px;
+  } 
+} 
 /* .customcss{
 
   background: rgb(228,234,237);

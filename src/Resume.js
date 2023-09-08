@@ -49,19 +49,19 @@ Resume
     </div>
 
     <div className='flex  justify-center   pt-10' >
-      <div className='pt-3 relative h-[60px] w-[200px] shadow-xl mr-2 flex justify-center hover:text-[#ff014f] cursor-pointer text-[#878e99] '  style={{borderRadius:"10px",background:"linear-gradient(145deg,#e2e8ec,#fff)" ,boxShadow:"5px 5px 15px #d1d9e6,-5px -5px 15px #fff"}}  >
+      <div className='pt-3 relative h-[60px] w-[300px] shadow-xl mr-2 flex justify-center hover:text-[#ff014f] cursor-pointer text-[#878e99] '  style={{borderRadius:"10px",background:"linear-gradient(145deg,#e2e8ec,#fff)" ,boxShadow:"5px 5px 15px #d1d9e6,-5px -5px 15px #fff"}}  >
         <div onClick={button1} className={tab===1} style={{fontFamily:"poppins" ,fontSize:"18px"}}>Education</div>
         </div>
-      <div className=' cursor-pointer pt-3 relative h-[60px] w-[200px] shadow-xl mr-2 flex justify-center  text-[#878e99] hover:text-[#ff014f]' style={{borderRadius:"10px",background:"linear-gradient(145deg,#e2e8ec,#fff)" ,boxShadow:"5px 5px 15px #d1d9e6,-5px -5px 15px #fff"}}  ><div onClick={button2} className={tab===2} style={{fontFamily:"poppins",fontSize:"18px"}}>Skills</div></div>
-      <div className=' cursor-pointer text-[#878e99] pt-3 relative h-[60px] w-[200px] shadow-xl mr-2 flex justify-center hover:text-[#ff014f]' style={{borderRadius:"10px", background:"linear-gradient(145deg,#e2e8ec,#fff)" ,boxShadow:"5px 5px 15px #d1d9e6,-5px -5px 15px #fff"}} ><div onClick={button3} className={tab===3} style={{fontFamily:"poppins" ,fontSize:"18px"}} >Experience</div></div>
-      <div className=' cursor-pointer text-[#878e99] pt-3 relative h-[60px] w-[200px] shadow-xl mr-2 flex justify-center hover:text-[#ff014f]' style={{borderRadius:"10px", background:"linear-gradient(145deg,#e2e8ec,#fff)" ,boxShadow:"5px 5px 15px #d1d9e6,-5px -5px 15px #fff"}} ><div onClick={button4} className={tab===4} style={{fontFamily:"poppins" ,fontSize:"18px"}} >Certificate</div></div>
+      {/* <div className=' cursor-pointer pt-3 relative h-[60px] w-[200px] shadow-xl mr-2 flex justify-center  text-[#878e99] hover:text-[#ff014f]' style={{borderRadius:"10px",background:"linear-gradient(145deg,#e2e8ec,#fff)" ,boxShadow:"5px 5px 15px #d1d9e6,-5px -5px 15px #fff"}}  ><div onClick={button2} className={tab===2} style={{fontFamily:"poppins",fontSize:"18px"}}>Skills</div></div> */}
+      <div className=' cursor-pointer text-[#878e99] pt-3 relative h-[60px] w-[300px] shadow-xl mr-2 flex justify-center hover:text-[#ff014f]' style={{borderRadius:"10px", background:"linear-gradient(145deg,#e2e8ec,#fff)" ,boxShadow:"5px 5px 15px #d1d9e6,-5px -5px 15px #fff"}} ><div onClick={button2} className={tab===2} style={{fontFamily:"poppins" ,fontSize:"18px"}} >Certificate</div></div>
+      <div className=' cursor-pointer text-[#878e99] pt-3 relative h-[60px] w-[300px] shadow-xl mr-2 flex justify-center hover:text-[#ff014f]' style={{borderRadius:"10px", background:"linear-gradient(145deg,#e2e8ec,#fff)" ,boxShadow:"5px 5px 15px #d1d9e6,-5px -5px 15px #fff"}} ><div onClick={button3} className={tab===3} style={{fontFamily:"poppins" ,fontSize:"18px"}} >Experience</div></div>
     </div>
 
     <div>
-   {tab===1?<Education/>:""}   
-   {tab===2?<Skills/>:""}   
+   {tab===1?<Education/>:""}     
+   {tab===2?<Certificate/>:""} 
    {tab===3?<Experience/>:""}   
-   {tab===4?<Certificate/>:""}   
+    
   </div>
 
 
