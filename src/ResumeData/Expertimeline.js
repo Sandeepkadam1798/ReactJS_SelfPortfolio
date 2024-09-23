@@ -25,19 +25,19 @@ const Expertimeline = () => {
         subtitle: 'Timespro Bootcamp(Dec 2022-Jun 2023)',
         description: 'Engaging in the Full Stack Web Development program at Timespro Bootcamp from 2022 to 2023 was a transformative experience that propelled my journey into the dynamic world of technology and programming.',
       },
-        {
-          title: 'Atos Syntel Pvt Ltd.',
-          subtitle: 'Backoffice Executive (Jan 2022-Nov 2022)',
-          description: "Updated customer addresses in the CRM application and validated existing customer addresses for accuracy.\nSuggested suitable medical insurance plans to customers based on their specific requirements and verified their eligibility.\nMaintained accurate customer records in the CRM application."
-        },
-        {
-          title: 'Concentrix Services Pvt Ltd.',
-          subtitle: 'Customer Executive (Aug 2020-Jan 2022)',
-          description: `Resolved customer issues with orders, payments, refunds, delivery, and pickup.\n
-          Managed coordination with internal teams for timely product delivery, pickup, and issue resolution for customers.\n
-          Handled high call volumes and ensured adherence to company policies and procedures for tat.
-          `,
-        },
+        // {
+        //   title: 'Atos Syntel Pvt Ltd.',
+        //   subtitle: 'Backoffice Executive (Jan 2022-Nov 2022)',
+        //   description: "Updated customer addresses in the CRM application and validated existing customer addresses for accuracy.\nSuggested suitable medical insurance plans to customers based on their specific requirements and verified their eligibility.\nMaintained accurate customer records in the CRM application."
+        // },
+        // {
+        //   title: 'Concentrix Services Pvt Ltd.',
+        //   subtitle: 'Customer Executive (Aug 2020-Jan 2022)',
+        //   description: `Resolved customer issues with orders, payments, refunds, delivery, and pickup.\n
+        //   Managed coordination with internal teams for timely product delivery, pickup, and issue resolution for customers.\n
+        //   Handled high call volumes and ensured adherence to company policies and procedures for tat.
+        //   `,
+        // },
       ];
  
   return (

@@ -41,7 +41,7 @@ const Projectdata = () => {
       image: CRUD,
       description:
         "Integrate Firebase for a user authentication system, enabling users to create accounts, securely log in, and efficiently manage their bookings.Build an admin dashboard empowering hotel administrators to manage hotel listings efficiently, respond to customer reviews, and monitor bookings.Enable users to easily search for available hotels based on available dates, room types, and other criteria.Integrate a secure payment gateway for seamless online transactions ",
-        Link:"https://github.com/Sandeepkadam1798/CRUDAPP-Studentmanagementsystem"
+        Link:""
     },
     {
       id: 5,

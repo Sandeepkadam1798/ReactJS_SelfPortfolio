@@ -18,7 +18,7 @@ const Contact = () => {
         "service_6ozzosi",
         "template_sm78vw9",
         form.current,
-        "OwNH1sJ3_RWqeChFR"
+        "DPVzaa_lNOrPycfB6"
       )
       .then(
         (result) => {
@@ -171,7 +171,7 @@ const Contact = () => {
                 }}
               >
                 Phone: +91 7038758993 <br />
-                Email: Sandeepkadam1798.sk@gmail.com
+                Email: Sandeepkadam9500@gmail.com
               </span>
             </div>
           </div>

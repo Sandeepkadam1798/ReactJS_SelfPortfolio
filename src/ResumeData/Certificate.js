@@ -16,7 +16,7 @@ const Certificate = () => {
       Pname: "Full-Stack Web Development",
       image: Project1,
       organization:"Organization-TimesPro",
-      Link:"https://drive.google.com/file/d/1RYUJ54DmEtIaGWv_m-0oGJuARv6EOpSY/view?usp=drive_link"
+      Link:"https://timespro.com/early-career/full-stack-web-development-course"
     },
 
     {
